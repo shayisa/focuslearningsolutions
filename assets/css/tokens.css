@@ -1,0 +1,67 @@
+/* ================================================================
+   DESIGN TOKENS — SINGLE SOURCE OF TRUTH
+   ================================================================
+   Change colours, fonts, or spacing HERE and it affects every page.
+   All pages import this file first.
+   ================================================================ */
+
+:root {
+    /* ── Brand Colours ── */
+    --navy:          #0f2744;
+    --navy-light:    #1a3a5c;
+    --navy-dark:     #081830;
+    --orange:        #d9531e;   /* darkened from #ff6b35 for WCAG AA */
+    --orange-hover:  #c04818;
+    --orange-light:  #f0875a;
+    --white:         #ffffff;
+    --off-white:     #f8f9fa;
+
+    /* ── Neutral Palette ── */
+    --text-primary:   #0f2744;
+    --text-secondary: #4a5568;
+    --text-muted:     #718096;
+    --divider:        #e2e8f0;
+    --surface:        #f7f8fc;
+
+    /* ── Accent Colours ── */
+    --teal:           #0d7377;
+    --teal-light:     #e6f4f4;
+    --gold:           #c9942e;
+    --success:        #25d366;  /* WhatsApp green */
+
+    /* ── Typography ── */
+    --font-heading: 'Montserrat', sans-serif;
+    --font-body:    'Inter', sans-serif;
+
+    /* ── Spacing (8px grid) ── */
+    --space-1:   0.25rem;   /*  4px */
+    --space-2:   0.5rem;    /*  8px */
+    --space-3:   0.75rem;   /* 12px */
+    --space-4:   1rem;      /* 16px */
+    --space-6:   1.5rem;    /* 24px */
+    --space-8:   2rem;      /* 32px */
+    --space-10:  2.5rem;    /* 40px */
+    --space-12:  3rem;      /* 48px */
+    --space-16:  4rem;      /* 64px */
+    --space-24:  6rem;      /* 96px */
+    --space-32:  8rem;      /* 128px */
+
+    /* ── Layout ── */
+    --container-max:      1200px;
+    --container-padding:  clamp(1rem, 3vw, 2.5rem);
+    --border-radius:      8px;
+    --border-radius-lg:   16px;
+    --header-height:      80px;
+    --header-height-scrolled: 64px;
+
+    /* ── Shadows ── */
+    --shadow-sm:  0 1px 3px rgba(15,39,68,0.08);
+    --shadow-md:  0 4px 12px rgba(15,39,68,0.1);
+    --shadow-lg:  0 8px 30px rgba(15,39,68,0.12);
+    --shadow-xl:  0 20px 60px rgba(15,39,68,0.15);
+
+    /* ── Transitions ── */
+    --transition-fast: 150ms ease;
+    --transition-base: 250ms ease;
+    --transition-slow: 400ms ease;
+}

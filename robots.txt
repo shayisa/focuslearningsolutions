@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Sitemap: https://focuslearningsolutions.org/sitemap.xml
+
+# Disallow temporary and asset directories from indexing
+Disallow: /assets/
